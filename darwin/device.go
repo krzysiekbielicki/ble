@@ -379,7 +379,7 @@ func (d *Device) HandleXpcEvent(event xpc.Dict, err error) {
 		if d.advHandler == nil {
 			break
 		}
-		a := &adv{args: m.args(), ad: args.advertisementData()}
+		a := &Advertisement{args: m.args(), ad: args.advertisementData()}
 		go d.advHandler(a)
 
 	case evtConfirmation:
