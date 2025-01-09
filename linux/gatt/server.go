@@ -4,8 +4,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/currantlabs/ble"
-	"github.com/currantlabs/ble/linux/att"
+	"github.com/krzysiekbielicki/ble"
+	"github.com/krzysiekbielicki/ble/linux/att"
 )
 
 // NewServer ...

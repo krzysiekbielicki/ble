@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/currantlabs/ble"
+	"github.com/krzysiekbielicki/ble"
 )
 
 func advHandler(a ble.Advertisement) {

@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/currantlabs/ble"
-	"github.com/currantlabs/ble/linux/hci/cmd"
-	"github.com/currantlabs/ble/linux/hci/evt"
-	"github.com/currantlabs/ble/linux/hci/socket"
+	"github.com/krzysiekbielicki/ble"
+	"github.com/krzysiekbielicki/ble/linux/hci/cmd"
+	"github.com/krzysiekbielicki/ble/linux/hci/evt"
+	"github.com/krzysiekbielicki/ble/linux/hci/socket"
 	"github.com/pkg/errors"
 )
 
